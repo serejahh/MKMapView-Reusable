@@ -15,7 +15,7 @@ func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> 
         return PassAnnotationView(annotation: annotation, reuseIdentifier: "annotation")
     }
     
-    // configure the annotaion view 
+    // configure the annotation view 
         
     return annotationView
 }
@@ -27,7 +27,7 @@ func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> 
 func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
     let annotationView = mapView.dequeueReusableAnnotationView(annotation) as PassAnnotationView
     
-    // configure the annotaion view 
+    // configure the annotation view 
         
     return annotationView
 }
